@@ -22,17 +22,17 @@
 // This program is a code generator plugin for `capnp compile` which writes the schema back to
 // stdout in roughly capnpc format.
 
-#include <capnp/schema.capnp.h>
+#include "schema.capnp.h"
 #include "../serialize.h"
-#include <kj/debug.h>
-#include <kj/io.h>
-#include <kj/string-tree.h>
-#include <kj/vector.h>
+#include "capnproto/kj/debug.h"
+#include "capnproto/kj/io.h"
+#include "capnproto/kj/string-tree.h"
+#include "capnproto/kj/vector.h"
 #include "../schema-loader.h"
 #include "../dynamic.h"
-#include <kj/miniposix.h>
+#include "capnproto/kj/miniposix.h"
 #include <unordered_map>
-#include <kj/main.h>
+#include "capnproto/kj/main.h"
 #include <algorithm>
 #include <map>
 

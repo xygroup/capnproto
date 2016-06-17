@@ -26,7 +26,7 @@
 #pragma GCC system_header
 #endif
 
-#include <kj/string.h>
+#include "capnproto/kj/string.h"
 #include "dynamic.h"
 #include "orphan.h"
 #include "schema.h"

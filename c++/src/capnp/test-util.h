@@ -29,7 +29,7 @@
 #include <capnp/test.capnp.h>
 #include <iostream>
 #include "blob.h"
-#include <kj/compat/gtest.h>
+#include "capnproto/kj/compat/gtest.h"
 
 #if !CAPNP_LITE
 #include "dynamic.h"

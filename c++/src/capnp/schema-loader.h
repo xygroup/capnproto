@@ -27,8 +27,8 @@
 #endif
 
 #include "schema.h"
-#include <kj/memory.h>
-#include <kj/mutex.h>
+#include "capnproto/kj/memory.h"
+#include "capnproto/kj/mutex.h"
 
 namespace capnp {
 

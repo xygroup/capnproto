@@ -21,10 +21,10 @@
 
 #include "compiler.h"
 #include "parser.h"      // only for generateChildId()
-#include <kj/mutex.h>
-#include <kj/arena.h>
-#include <kj/vector.h>
-#include <kj/debug.h>
+#include "capnproto/kj/mutex.h"
+#include "capnproto/kj/arena.h"
+#include "capnproto/kj/vector.h"
+#include "capnproto/kj/debug.h"
 #include <capnp/message.h>
 #include <map>
 #include <set>

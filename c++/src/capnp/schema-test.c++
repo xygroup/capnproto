@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 
 #include "schema.h"
-#include <kj/compat/gtest.h>
+#include "capnproto/kj/compat/gtest.h"
 #include "test-util.h"
 
 // TODO(cleanup): Auto-generate stringification functions for union discriminants.

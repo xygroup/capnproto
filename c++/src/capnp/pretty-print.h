@@ -27,7 +27,7 @@
 #endif
 
 #include "dynamic.h"
-#include <kj/string-tree.h>
+#include "capnproto/kj/string-tree.h"
 
 namespace capnp {
 

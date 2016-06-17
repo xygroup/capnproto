@@ -33,8 +33,8 @@
 #pragma GCC system_header
 #endif
 
-#include <kj/common.h>
-#include <kj/memory.h>
+#include "capnproto/kj/common.h"
+#include "capnproto/kj/memory.h"
 #include "common.h"
 #include "blob.h"
 #include "endian.h"

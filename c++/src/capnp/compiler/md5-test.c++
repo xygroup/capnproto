@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 
 #include "md5.h"
-#include <kj/compat/gtest.h>
+#include "capnproto/kj/compat/gtest.h"
 
 namespace capnp {
 namespace compiler {

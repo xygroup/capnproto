@@ -31,13 +31,13 @@
 #include <capnp/message.h>
 #include <capnp/pretty-print.h>
 #include "compiler.h"
-#include <kj/function.h>
-#include <kj/debug.h>
+#include "capnproto/kj/function.h"
+#include "capnproto/kj/debug.h"
 #include <stdlib.h>
 #include <time.h>
-#include <kj/main.h>
-#include <kj/io.h>
-#include <kj/miniposix.h>
+#include "capnproto/kj/main.h"
+#include "capnproto/kj/io.h"
+#include "capnproto/kj/miniposix.h"
 
 namespace capnp {
 namespace compiler {

@@ -27,9 +27,9 @@
 #endif
 
 #include "../common.h"
-#include <kj/string.h>
-#include <kj/exception.h>
-#include <kj/vector.h>
+#include "capnproto/kj/string.h"
+#include "capnproto/kj/exception.h"
+#include "capnproto/kj/vector.h"
 
 namespace capnp {
 namespace compiler {

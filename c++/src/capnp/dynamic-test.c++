@@ -21,8 +21,8 @@
 
 #include "dynamic.h"
 #include "message.h"
-#include <kj/debug.h>
-#include <kj/compat/gtest.h>
+#include "capnproto/kj/debug.h"
+#include "capnproto/kj/compat/gtest.h"
 #include "test-util.h"
 
 namespace capnp {

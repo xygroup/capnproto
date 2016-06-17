@@ -26,10 +26,10 @@
 #include <map>
 #include "message.h"
 #include "arena.h"
-#include <kj/debug.h>
-#include <kj/exception.h>
-#include <kj/arena.h>
-#include <kj/vector.h>
+#include "capnproto/kj/debug.h"
+#include "capnproto/kj/exception.h"
+#include "capnproto/kj/arena.h"
+#include "capnproto/kj/vector.h"
 #include <algorithm>
 
 #if _MSC_VER

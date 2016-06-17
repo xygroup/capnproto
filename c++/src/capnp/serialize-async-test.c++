@@ -21,12 +21,12 @@
 
 #include "serialize-async.h"
 #include "serialize.h"
-#include <kj/debug.h>
-#include <kj/thread.h>
+#include "capnproto/kj/debug.h"
+#include "capnproto/kj/thread.h"
 #include <stdlib.h>
 #include <kj/miniposix.h>
 #include "test-util.h"
-#include <kj/compat/gtest.h>
+#include "capnproto/kj/compat/gtest.h"
 
 #if _WIN32
 #define WIN32_LEAN_AND_MEAN

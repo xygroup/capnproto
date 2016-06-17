@@ -30,8 +30,8 @@
 #error "RPC APIs, including this header, are not available in lite mode."
 #endif
 
-#include <kj/async.h>
-#include <kj/vector.h>
+#include "capnproto/kj/async.h"
+#include "capnproto/kj/vector.h"
 #include "raw-schema.h"
 #include "any.h"
 #include "pointer-helpers.h"

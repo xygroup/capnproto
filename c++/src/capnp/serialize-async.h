@@ -26,7 +26,7 @@
 #pragma GCC system_header
 #endif
 
-#include <kj/async-io.h>
+#include "capnproto/kj/async-io.h"
 #include "message.h"
 
 namespace capnp {

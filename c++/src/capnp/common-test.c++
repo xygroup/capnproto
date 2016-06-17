@@ -20,9 +20,9 @@
 // THE SOFTWARE.
 
 #include "common.h"
-#include <kj/compat/gtest.h>
-#include <kj/string.h>
-#include <kj/debug.h>
+#include "capnproto/kj/compat/gtest.h"
+#include "capnproto/kj/string.h"
+#include "capnproto/kj/debug.h"
 #include <capnp/test.capnp.h>
 
 #if HAVE_CONFIG_H

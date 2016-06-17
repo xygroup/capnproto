@@ -23,9 +23,9 @@
 #include <capnp/test-import2.capnp.h>
 #include "message.h"
 #include "serialize.h"
-#include <kj/test.h>
+#include "capnproto/kj/test.h"
 #include <stdlib.h>
-#include <kj/miniposix.h>
+#include "capnproto/kj/miniposix.h"
 #include "test-util.h"
 
 namespace capnp {

@@ -27,11 +27,11 @@
 #include <capnp/compiler/grammar.capnp.h>
 #include <capnp/compiler/parser.h>
 #include <unordered_map>
-#include <kj/mutex.h>
-#include <kj/vector.h>
-#include <kj/debug.h>
-#include <kj/io.h>
-#include <kj/miniposix.h>
+#include "capnproto/kj/mutex.h"
+#include "capnproto/kj/vector.h"
+#include "capnproto/kj/debug.h"
+#include "capnproto/kj/io.h"
+#include "capnproto/kj/miniposix.h"
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>

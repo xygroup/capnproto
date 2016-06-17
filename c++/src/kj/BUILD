@@ -64,5 +64,5 @@ cc_library(
         "-Wno-unused-parameter",
         "-Werror",
     ],
-    # visibility = ["//capnproto/capnproto"],
+    visibility = ["//visibility:public"],
 )

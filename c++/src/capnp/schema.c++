@@ -21,7 +21,7 @@
 
 #include "schema.h"
 #include "message.h"
-#include <kj/debug.h>
+#include "capnproto/kj/debug.h"
 
 namespace capnp {
 
