@@ -28,8 +28,8 @@
 
 #include <capnp/compiler/grammar.capnp.h>
 #include <capnp/compiler/lexer.capnp.h>
-#include <kj/parse/common.h>
-#include <kj/arena.h>
+#include "capnproto/kj/parse/common.h"
+#include "capnproto/kj/arena.h"
 #include "error-reporter.h"
 
 namespace capnp {

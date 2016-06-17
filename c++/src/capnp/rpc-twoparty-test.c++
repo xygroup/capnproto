@@ -21,11 +21,11 @@
 
 #include "rpc-twoparty.h"
 #include "test-util.h"
-#include <capnp/rpc.capnp.h>
-#include <kj/async-unix.h>
-#include <kj/debug.h>
-#include <kj/thread.h>
-#include <kj/compat/gtest.h>
+#include "rpc.capnp.h"
+#include "capnproto/kj/async-unix.h"
+#include "capnproto/kj/debug.h"
+#include "capnproto/kj/thread.h"
+#include "capnproto/kj/compat/gtest.h"
 
 // TODO(cleanup): Auto-generate stringification functions for union discriminants.
 namespace capnp {

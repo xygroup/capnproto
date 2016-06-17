@@ -22,9 +22,9 @@
 #include "json.h"
 #include <capnp/test-util.h>
 #include <capnp/compat/json.capnp.h>
-#include <kj/debug.h>
-#include <kj/string.h>
-#include <kj/test.h>
+#include "capnproto/kj/debug.h"
+#include "capnproto/kj/string.h"
+#include "capnproto/kj/test.h"
 
 namespace capnp {
 namespace _ {  // private

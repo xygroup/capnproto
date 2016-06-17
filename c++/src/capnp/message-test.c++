@@ -21,10 +21,10 @@
 
 #include "message.h"
 #include "test-util.h"
-#include <kj/array.h>
-#include <kj/vector.h>
-#include <kj/debug.h>
-#include <kj/compat/gtest.h>
+#include "capnproto/kj/array.h"
+#include "capnproto/kj/vector.h"
+#include "capnproto/kj/debug.h"
+#include "capnproto/kj/compat/gtest.h"
 
 namespace capnp {
 namespace _ {  // private

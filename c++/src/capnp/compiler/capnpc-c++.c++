@@ -21,21 +21,21 @@
 
 // This program is a code generator plugin for `capnp compile` which generates C++ code.
 
-#include <capnp/schema.capnp.h>
+#include "schema.capnp.h"
 #include "../serialize.h"
-#include <kj/debug.h>
-#include <kj/io.h>
-#include <kj/string-tree.h>
-#include <kj/tuple.h>
-#include <kj/vector.h>
+#include "capnproto/kj/debug.h"
+#include "capnproto/kj/io.h"
+#include "capnproto/kj/string-tree.h"
+#include "capnproto/kj/tuple.h"
+#include "capnproto/kj/vector.h"
 #include "../schema-loader.h"
 #include "../dynamic.h"
-#include <kj/miniposix.h>
+#include "capnproto/kj/miniposix.h"
 #include <unordered_map>
 #include <unordered_set>
 #include <map>
 #include <set>
-#include <kj/main.h>
+#include "capnproto/kj/main.h"
 #include <algorithm>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -2848,10 +2848,10 @@ private:
           "#ifndef CAPNP_INCLUDED_", kj::hex(node.getId()), "_\n",
           "#define CAPNP_INCLUDED_", kj::hex(node.getId()), "_\n"
           "\n"
-          "#include <capnp/generated-header-support.h>\n",
+          "#include "generated-header-support.h"\n",
           hasInterfaces ? kj::strTree(
             "#if !CAPNP_LITE\n"
-            "#include <capnp/capability.h>\n"
+            "#include "capability.h"\n"
             "#endif  // !CAPNP_LITE\n"
           ) : kj::strTree(),
           "\n"

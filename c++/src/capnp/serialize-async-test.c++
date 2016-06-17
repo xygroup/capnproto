@@ -21,15 +21,15 @@
 
 #include "serialize-async.h"
 #include "serialize.h"
-#include <kj/debug.h>
-#include <kj/thread.h>
+#include "capnproto/kj/debug.h"
+#include "capnproto/kj/thread.h"
 #include <stdlib.h>
 #include <unistd.h>
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/socket.h>
 #include "test-util.h"
-#include <kj/compat/gtest.h>
+#include "capnproto/kj/compat/gtest.h"
 
 namespace capnp {
 namespace _ {  // private

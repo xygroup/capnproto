@@ -28,8 +28,8 @@
 
 #include "rpc.h"
 #include "message.h"
-#include <kj/async-io.h>
-#include <capnp/rpc-twoparty.capnp.h>
+#include "capnproto/kj/async-io.h"
+#include "rpc-twoparty.capnp.h"
 
 namespace capnp {
 

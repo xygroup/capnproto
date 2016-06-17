@@ -20,9 +20,9 @@
 // THE SOFTWARE.
 
 #include "schema-loader.h"
-#include <kj/compat/gtest.h>
+#include "capnproto/kj/compat/gtest.h"
 #include "test-util.h"
-#include <kj/debug.h>
+#include "capnproto/kj/debug.h"
 
 namespace capnp {
 namespace _ {  // private

@@ -30,7 +30,7 @@
 #error "Reflection APIs, including this header, are not available in lite mode."
 #endif
 
-#include <capnp/schema.capnp.h>
+#include "schema.capnp.h"
 
 namespace capnp {
 

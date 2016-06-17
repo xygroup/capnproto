@@ -26,8 +26,8 @@
 #pragma GCC system_header
 #endif
 
-#include <kj/common.h>
-#include <kj/string.h>
+#include "capnproto/kj/common.h"
+#include "capnproto/kj/string.h"
 #include "common.h"
 #include <string.h>
 

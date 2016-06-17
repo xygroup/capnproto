@@ -20,9 +20,9 @@
 // THE SOFTWARE.
 
 #include "serialize.h"
-#include <kj/debug.h>
-#include <kj/compat/gtest.h>
-#include <kj/miniposix.h>
+#include "capnproto/kj/debug.h"
+#include "capnproto/kj/compat/gtest.h"
+#include "capnproto/kj/miniposix.h"
 #include <string>
 #include <stdlib.h>
 #include <fcntl.h>

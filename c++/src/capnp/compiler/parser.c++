@@ -22,7 +22,7 @@
 #include "parser.h"
 #include "md5.h"
 #include <capnp/dynamic.h>
-#include <kj/debug.h>
+#include "capnproto/kj/debug.h"
 #if !_MSC_VER
 #include <unistd.h>
 #endif

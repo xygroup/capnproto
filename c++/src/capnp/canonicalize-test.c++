@@ -21,8 +21,8 @@
 
 #include "message.h"
 #include "any.h"
-#include <kj/debug.h>
-#include <kj/test.h>
+#include "capnproto/kj/debug.h"
+#include "capnproto/kj/test.h"
 #include "test-util.h"
 
 namespace capnp {

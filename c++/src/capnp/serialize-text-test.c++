@@ -20,8 +20,8 @@
 // THE SOFTWARE.
 
 #include "serialize-text.h"
-#include <kj/compat/gtest.h>
-#include <kj/string.h>
+#include "capnproto/kj/compat/gtest.h"
+#include "capnproto/kj/string.h"
 #include <capnp/pretty-print.h>
 #include <capnp/message.h>
 #include "test-util.h"

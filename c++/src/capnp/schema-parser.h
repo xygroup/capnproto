@@ -27,7 +27,7 @@
 #endif
 
 #include "schema-loader.h"
-#include <kj/string.h>
+#include "capnproto/kj/string.h"
 
 namespace capnp {
 

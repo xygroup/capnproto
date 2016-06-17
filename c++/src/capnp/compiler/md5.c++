@@ -40,7 +40,7 @@
  */
 
 #include "md5.h"
-#include <kj/debug.h>
+#include "capnproto/kj/debug.h"
 #include <string.h>
 
 namespace capnp {

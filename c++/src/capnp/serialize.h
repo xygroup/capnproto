@@ -46,7 +46,7 @@
 #endif
 
 #include "message.h"
-#include <kj/io.h>
+#include "capnproto/kj/io.h"
 
 namespace capnp {
 

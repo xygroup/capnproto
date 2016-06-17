@@ -21,7 +21,7 @@
 
 #include "any.h"
 
-#include <kj/debug.h>
+#include "capnproto/kj/debug.h"
 
 #if !CAPNP_LITE
 #include "capability.h"

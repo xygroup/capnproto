@@ -30,10 +30,10 @@
 #error "This header is only meant to be included by Cap'n Proto's own source code."
 #endif
 
-#include <kj/common.h>
-#include <kj/mutex.h>
-#include <kj/exception.h>
-#include <kj/vector.h>
+#include "capnproto/kj/common.h"
+#include "capnproto/kj/mutex.h"
+#include "capnproto/kj/exception.h"
+#include "capnproto/kj/vector.h"
 #include "common.h"
 #include "message.h"
 #include "layout.h"

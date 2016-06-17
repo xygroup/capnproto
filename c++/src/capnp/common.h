@@ -30,10 +30,10 @@
 #pragma GCC system_header
 #endif
 
-#include <kj/units.h>
+#include "capnproto/kj/units.h"
 #include <inttypes.h>
-#include <kj/string.h>
-#include <kj/memory.h>
+#include "capnproto/kj/string.h"
+#include "capnproto/kj/memory.h"
 
 namespace capnp {
 

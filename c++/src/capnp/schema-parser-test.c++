@@ -20,9 +20,9 @@
 // THE SOFTWARE.
 
 #include "schema-parser.h"
-#include <kj/compat/gtest.h>
+#include "capnproto/kj/compat/gtest.h"
 #include "test-util.h"
-#include <kj/debug.h>
+#include "capnproto/kj/debug.h"
 #include <map>
 
 namespace capnp {

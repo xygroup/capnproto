@@ -32,8 +32,8 @@
 #ifndef CAPNP_COMPILER_MD5_H
 #define CAPNP_COMPILER_MD5_H
 
-#include <kj/string.h>
-#include <kj/array.h>
+#include "capnproto/kj/string.h"
+#include "capnproto/kj/array.h"
 
 namespace capnp {
 namespace compiler {

@@ -22,8 +22,8 @@
 #include "node-translator.h"
 #include "parser.h"      // only for generateGroupId()
 #include <capnp/serialize.h>
-#include <kj/debug.h>
-#include <kj/arena.h>
+#include "capnproto/kj/debug.h"
+#include "capnproto/kj/arena.h"
 #include <set>
 #include <map>
 

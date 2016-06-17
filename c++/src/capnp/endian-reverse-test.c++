@@ -23,7 +23,7 @@
 // the bswap-based code.
 #define CAPNP_REVERSE_ENDIAN 1
 #include "endian.h"
-#include <kj/compat/gtest.h>
+#include "capnproto/kj/compat/gtest.h"
 
 namespace capnp {
 namespace _ {  // private

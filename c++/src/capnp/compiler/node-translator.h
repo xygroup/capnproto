@@ -28,10 +28,10 @@
 
 #include <capnp/orphan.h>
 #include <capnp/compiler/grammar.capnp.h>
-#include <capnp/schema.capnp.h>
+#include "schema.capnp.h"
 #include <capnp/dynamic.h>
-#include <kj/vector.h>
-#include <kj/one-of.h>
+#include "capnproto/kj/vector.h"
+#include "capnproto/kj/one-of.h"
 #include "error-reporter.h"
 
 namespace capnp {

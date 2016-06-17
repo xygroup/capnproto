@@ -4,9 +4,9 @@
 #ifndef CAPNP_INCLUDED_b8630836983feed7_
 #define CAPNP_INCLUDED_b8630836983feed7_
 
-#include <capnp/generated-header-support.h>
+#include "generated-header-support.h"
 #if !CAPNP_LITE
-#include <capnp/capability.h>
+#include "capability.h"
 #endif  // !CAPNP_LITE
 
 #if CAPNP_VERSION != 6000
