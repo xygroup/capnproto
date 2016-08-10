@@ -55,11 +55,10 @@ cc_library(
         "windows-sanity.h",
     ],
     copts = [
-        "-stdlib=libc++",
         "-std=c++14",
         "-Wall",
         "-Wextra",
-        "-Wglobal-constructors",
+        "-Wno-error=strict-aliasing",
         "-Wno-sign-compare",
         "-Wno-unused-parameter",
         "-Werror",

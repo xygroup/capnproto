@@ -65,11 +65,9 @@ cc_library(
         "serialize.h",
     ],
     copts = [
-        "-stdlib=libc++",
         "-std=c++14",
         "-Wall",
         "-Wextra",
-        "-Wglobal-constructors",
         "-Wno-sign-compare",
         "-Wno-unused-parameter",
         "-Werror",
