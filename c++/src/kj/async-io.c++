@@ -23,6 +23,9 @@
 #include "debug.h"
 #include "vector.h"
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wconversion"
+
 namespace kj {
 
 Promise<void> AsyncInputStream::read(void* buffer, size_t bytes) {

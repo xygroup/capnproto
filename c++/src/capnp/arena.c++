@@ -33,6 +33,9 @@
 #include "capability.h"
 #endif  // !CAPNP_LITE
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wconversion"
+
 namespace capnp {
 namespace _ {  // private
 

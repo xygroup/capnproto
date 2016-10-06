@@ -44,7 +44,10 @@ void unreachable() {
   KJ_FAIL_ASSERT("Supposedly-unreachable branch executed.");
 
   // Really make sure we abort.
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunreachable-code"
   abort();
+#pragma clang pop
 }
 
 }  // namespace _ (private)

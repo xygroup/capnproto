@@ -24,6 +24,9 @@
 #include "layout.h"
 #include <vector>
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wconversion"
+
 namespace capnp {
 
 namespace _ {  // private
