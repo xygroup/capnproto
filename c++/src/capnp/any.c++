@@ -21,6 +21,9 @@
 
 #include "any.h"
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wconversion"
+
 #include "capnproto/kj/debug.h"
 
 #if !CAPNP_LITE

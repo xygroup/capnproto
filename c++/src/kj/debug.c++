@@ -285,7 +285,10 @@ void Debug::Fault::fatal() {
   delete exception;
   exception = nullptr;
   throwFatalException(mv(copy), 2);
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunreachable-code"
   abort();
+#pragma clang diagnostic pop
 }
 
 void Debug::Fault::init(

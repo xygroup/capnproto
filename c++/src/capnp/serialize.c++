@@ -20,9 +20,13 @@
 // THE SOFTWARE.
 
 #include "serialize.h"
+
 #include "layout.h"
 #include "capnproto/kj/debug.h"
 #include <exception>
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wconversion"
 
 namespace capnp {
 

@@ -37,6 +37,9 @@
 #include <sys/uio.h>
 #endif
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wconversion"
+
 namespace kj {
 
 // =======================================================================================

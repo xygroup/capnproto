@@ -23,6 +23,9 @@
 #include "debug.h"
 #include <stdint.h>
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wconversion"
+
 namespace kj {
 
 Arena::Arena(size_t chunkSizeHint): nextChunkSize(kj::max(sizeof(ChunkHeader), chunkSizeHint)) {}

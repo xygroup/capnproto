@@ -42,6 +42,9 @@
 #include <poll.h>
 #include <limits.h>
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wconversion"
+
 namespace kj {
 
 namespace {

@@ -30,6 +30,9 @@
 #include <vector>
 #include <errno.h>
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wconversion"
+
 namespace capnp {
 
 namespace {

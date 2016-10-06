@@ -22,6 +22,9 @@
 #include "serialize-async.h"
 #include "capnproto/kj/debug.h"
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wconversion"
+
 namespace capnp {
 
 namespace {
