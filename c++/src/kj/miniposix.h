@@ -132,15 +132,15 @@ inline size_t iovMax(size_t count) {
 #else
   // POSIX mystery meat
 
-  long iovmax;
+//  long iovmax;
 
-  errno = 0;
-  if ((iovmax = sysconf(_SC_IOV_MAX)) == -1) {
+//  errno = 0;
+//  if ((iovmax = sysconf(_SC_IOV_MAX)) == -1) {
     // assume iovmax == -1 && errno == 0 means "unbounded"
-    return errno ? _XOPEN_IOV_MAX : count;
-  } else {
-    return (size_t) iovmax;
-  }
+//    return errno ? _XOPEN_IOV_MAX : count;
+//  } else {
+//    return (size_t) iovmax;
+//  }
 #endif
 }
 

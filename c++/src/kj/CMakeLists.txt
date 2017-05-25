@@ -1,4 +1,4 @@
-
+ cmake_minimum_required(VERSION 3.6)
 # kj ===========================================================================
 
 set(kj_sources_lite
