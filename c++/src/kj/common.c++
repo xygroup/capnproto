@@ -47,7 +47,7 @@ void unreachable() {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wunreachable-code"
   abort();
-#pragma clang pop
+#pragma clang diagnostic pop
 }
 
 }  // namespace _ (private)
