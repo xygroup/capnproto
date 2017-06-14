@@ -243,7 +243,13 @@ static String makeDescriptionImpl(DescriptionStyle style, const char* code, int 
     StringPtr colon = ": ";
 
     StringPtr sysErrorArray;
-#if __USE_GNU
+#if __ANDROID__
+    char buffer[256];
+    if (style == SYSCALL) {
+        strerror_r(errorNumber, buffer, sizeof(buffer));
+        sysErrorArray = buffer;
+    }
+#elif __USE_GNU
     char buffer[256];
     if (style == SYSCALL) {
       if (sysErrorString == nullptr) {
