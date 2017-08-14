@@ -55,13 +55,13 @@ cc_library(
         "windows-sanity.h",
     ],
     copts = [
-        "-std=c++14",
+        "-std=c++11",
         "-Wall",
         "-Wextra",
         "-Wno-error=strict-aliasing",
         "-Wno-sign-compare",
         "-Wno-unused-parameter",
-        "-Werror",
+        "-Wno-excessive-errors",
     ],
     visibility = ["//visibility:public"],
 )
