@@ -75,4 +75,5 @@ cc_library(
     ],
     deps = ["//capnproto/kj"],
     visibility = ["//visibility:public"],
+    linkstatic = 1,
 )

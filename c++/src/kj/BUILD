@@ -64,4 +64,5 @@ cc_library(
         "-Wno-excessive-errors",
     ],
     visibility = ["//visibility:public"],
+    linkstatic = 1,
 )
