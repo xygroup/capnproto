@@ -20,6 +20,7 @@ cc_library(
         "test.c++",
         "thread.c++",
         "time.c++",
+        "units.c++",
     ],
     hdrs = [
         "parse/char.h",

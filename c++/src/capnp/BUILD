@@ -50,6 +50,7 @@ cc_library(
         # "persistent.capnp.h",
         "pointer-helpers.h",
         # "pretty-print.h",
+        "raw-schema.h",
         # "rpc-prelude.h",
         # "rpc-twoparty.capnp.h",
         # "rpc-twoparty.h",
